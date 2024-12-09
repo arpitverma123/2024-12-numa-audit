@@ -11,6 +11,13 @@
 - Use lite foundry config for faster build: $Env:FOUNDRY_PROFILE = 'lite'
 - define URLARBI = Arbitrum rpc  in .env file (tests are running on arbitrum fork)
 
+To quickly run all tests set Arbitrum RPC in `.env` & run:
+
+```shell
+yarn install
+FOUNDRY_PROFILE=lite forge test
+```
+
 ### vault testing
 
 ```shell
